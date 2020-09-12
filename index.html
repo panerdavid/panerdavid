@@ -51,11 +51,14 @@
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- TypeIt JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
     <!-- Font Awesome Kit -->
     <script
       src="https://kit.fontawesome.com/394ddacfba.js"
       crossorigin="anonymous"
     ></script>
+
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
       <script src="js/respond.min.js"></script>
@@ -132,14 +135,22 @@
                 ></a>
               </li>
               <li class="sm-icon">
-                <a target="_blank" href="mailto:panerdavid@berkeley.edu"><i class="far fa-envelope"></i></a>
+                <a target="_blank" href="mailto:panerdavid@berkeley.edu"
+                  ><i class="far fa-envelope"></i
+                ></a>
               </li>
               <li class="sm-icon">
-                <a target="_blank" href="https://github.com/panerdavid"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://github.com/panerdavid"
+                  ><i class="fab fa-github"></i
+                ></a>
               </li>
 
               <li class="sm-icon">
-                <a target="_blank" href="https://www.instagram.com/davidjspaner/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/davidjspaner/?hl=en"
+                  ><i class="fab fa-instagram"></i
+                ></a>
               </li>
             </ul>
           </div>
@@ -154,12 +165,17 @@
                   <div class="container-fluid">
                     <div class="row">
                       <div
-                        class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text"
+                        class="col-md-12 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text"
                       >
                         <div class="slider-text-inner js-fullheight">
                           <div class="desc first-slide">
-                            <h1>Hi!<br />I'm David.</h1>
+                            <h1>
+                              Hi! <br />
+                              I'm David.
+                            </h1>
 
+                            <h2 id="element"></h2>
+                            <!-- I’m a ______. I help ______ {make/build} ______. -->
                             <p>
                               <a
                                 class="btn btn-primary btn-learn"
@@ -191,34 +207,31 @@
                         <span class="heading-meta">About Me</span>
                         <h2 class="colorlib-heading">Who Am I?</h2>
                         <p>
-                          My name is David, and I am currently finishing my
-                          final year at UC Berkeley studying Computer Science
-                          and Data Science. Through my past internships and
-                          projects, I have gained meaningful experience in
-                          fullstack development, mobile development, and data
-                          science. I am motivated by technology's potential as a
-                          means for social good, and am a strong believer in
-                          using one's position and privilege to uplift their
-                          community around them.
+                          My name is David. I’m a fourth year student at UC
+                          Berkeley studying Computer Science and Data Science.
+                          My professional experience has encompassed full-stack
+                          development, mobile development, and machine learning.
+                          I am motivated by technology's potential as a means
+                          for social impact, and am a strong believer in using
+                          one's position and privilege to uplift their community
+                          around them.
                         </p>
 
                         <p>
-                          On campus, I am involved with Berkeley Engineers and
-                          Mentors (BEAM) where I help develop and teach lessons
-                          to inspire local students of all socioeconomic
-                          backgrounds to pursue careers in STEM. I am also a
-                          member of Codeology where I work alongside other
-                          Berkeley students on innovative projects and explore
-                          the many fields in tech. Lastly, I am a part of The
-                          Music Connection (TMC) where I provide pro bono music
-                          tutoring to curious, young musicians in Berkeley.
+                          As such, my internships and projects have allowed me
+                          to utilize technology for social good—such as allowing
+                          shoppers to render their online orders carbon neutral,
+                          bettering patient care through advancements in AI, and
+                          working towards equal education opportunity. On
+                          campus, I am involved with organizations centered
+                          around providing accessible STEM education, finding
+                          your fit in the tech industry, and music charity.
                         </p>
                         <p>
                           In my free time, I enjoy lifting heavy objects at the
                           gym, exploring my Filipino culture through cooking,
-                          playing piano, and finding new music to enjoy. Feel
-                          free to check out what I'm currently listening to
-                          below!
+                          playing piano, and finding new music. Feel free to
+                          check out what I'm currently listening to below!
                         </p>
                       </div>
                     </div>
@@ -229,7 +242,7 @@
                         class="animate-box"
                         src="https://open.spotify.com/embed/playlist/6LgLuCqxIPXTRkGIHHNnLr&theme=white"
                         width="100%;"
-                        height="200"
+                        height="220"
                         frameborder="0"
                         allowtransparency="true"
                         allow="encrypted-media"
@@ -247,7 +260,18 @@
                         <h2>
                           I am currently looking for <br />full-time SWE roles!
                         </h2>
-                        <a href="mailto:panerdavid@berkeley.edu" class="btn-hire">Hire me</a>
+                        <a
+                          href="mailto:panerdavid@berkeley.edu"
+                          class="btn-hire"
+                          >Hire me</a
+                        >
+                        <a
+                        style = "margin-left: 15px;"
+                          class="btn-hire"
+                          target="_blank"
+                          href="/David-Paner-Resume-2020.pdf"
+                          >Download Resume <i class="icon-download4"></i
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -282,11 +306,11 @@
                   <span
                     class="colorlib-counter js-counter"
                     data-from="0"
-                    data-to="6"
+                    data-to="24"
                     data-speed="3000"
                     data-refresh-interval="50"
                   ></span>
-                  <span class="colorlib-counter-label">Songs Composed</span>
+                  <span class="colorlib-counter-label">Plants in my Collection</span>
                 </div>
                 <div class="col-md-3 text-center animate-box">
                   <span
@@ -1156,7 +1180,10 @@
               <div class="row">
                 <div class="col-md-12 animate-box">
                   <p>
-                    <a target="_blank" href="https://github.com/panerdavid" class="btn btn-lg btn-load-more"
+                    <a
+                      target="_blank"
+                      href="https://github.com/panerdavid"
+                      class="btn btn-lg btn-load-more"
                       >Visit my Github <i class="fas fa-code-branch"></i
                     ></a>
                   </p>
@@ -1258,5 +1285,22 @@
 
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
+
+    <script>
+      new TypeIt("#element", {
+        strings: [
+          "Software engineer based in the Bay Area.",
+          "Interested in healthtech and edtech.",
+          "Passionate about equal education opportunity.",
+          "Music theory and jazz enthusiast.",
+          "Aspiring plant parent.",
+        ],
+        speed: 50,
+        loop: true,
+        breakLines: false,
+        nextStringDelay: 2000,
+        startDelay: 2000
+      }).go();
+    </script>
   </body>
 </html>
