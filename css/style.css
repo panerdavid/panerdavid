@@ -288,14 +288,18 @@ figure figcaption {
 }
 
 #colorlib-aside .colorlib-footer ul li a {
-  color: rgba(255, 255, 255, 0.3);
-  padding: 4px;
+  color: rgba(255, 255, 255, .55);
+  /* color: black; */
+  padding: 6px;
 }
 
 #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
   text-decoration: none;
   outline: none;
-  color: #2c98f0;
+  /* color: #2c98f0; */
+  /* color: rgba(255, 255, 255, 1);  */
+  color: #235789;
+  
 }
 
 .container-wrap {
@@ -1959,9 +1963,6 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   opacity: 0;
 }
 
-.sm-icon:hover .sm-icon:active {
-  color: #CFB1BE !important;
-}
 
 /* Icon Fade */
 
